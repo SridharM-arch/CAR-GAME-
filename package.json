@@ -1,0 +1,12 @@
+{
+  "name": "car-racing-fixed",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm --prefix project run dev",
+    "build": "npm --prefix project run build",
+    "lint": "npm --prefix project run lint",
+    "preview": "npm --prefix project run preview",
+    "typecheck": "npm --prefix project run typecheck"
+  }
+}
