@@ -3,6 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
+    "postinstall": "npm --prefix project install --include=dev",
     "dev": "npm --prefix project run dev",
     "build": "npm --prefix project run build",
     "lint": "npm --prefix project run lint",
